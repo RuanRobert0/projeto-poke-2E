@@ -1,8 +1,13 @@
+import poke from './assets/poeapi_256.png'
+import eevee from './assets/eevee.jpg'
+
+
 const Home = () => {
 
     return (
         <div>
-            <p>pokemon</p>
+            <img src={poke} />
+            <img src={eevee} />
         </div>
     )
 }
